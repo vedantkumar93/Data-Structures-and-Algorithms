@@ -1,0 +1,4 @@
+If the table size is more than 20,000 and the words to insert are 8000, is the above hashing algorithm adequate ? why ?
+
+Yes the above applied algorithm will meet the requirements of hashing since Load Factor remains less than 0.5.
+ However, the table size to be defined will be next prime number after 20000 i.e. 20011.
